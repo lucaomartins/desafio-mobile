@@ -1,10 +1,10 @@
-package br.com.hackerman.starstore.api
+package br.com.hackerman.starstore.network.data.store
 
-import br.com.hackerman.starstore.domain.Product
+import br.com.hackerman.starstore.network.data.model.Product
 import retrofit2.Response
 import retrofit2.http.GET
 
-interface ProductApi {
+internal interface StoreApi {
     @GET("store/products.json")
     suspend fun getProductList(): Response<List<Product>>
 

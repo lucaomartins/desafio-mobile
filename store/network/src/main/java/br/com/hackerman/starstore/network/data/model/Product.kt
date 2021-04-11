@@ -1,4 +1,4 @@
-package br.com.hackerman.starstore.domain
+package br.com.hackerman.starstore.network.data.model
 
 data class Product(
         val title: String,

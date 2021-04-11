@@ -1,0 +1,12 @@
+ext {
+    kotlin_version = "1.4.32"
+    versions = [
+            junit5               : "5.5.2",
+            mockk                : "1.10.0",
+            retrofit             : "2.9.0",
+            junit                : "4.13.2",
+            gson                 : "2.8.6",
+            xtest                : "1.1.2",
+            espressoCore         : "3.3.0",
+    ]
+}
